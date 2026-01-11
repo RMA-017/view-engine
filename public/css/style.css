@@ -6,13 +6,25 @@
 
 body {
     background-color: rgb(36, 34, 34);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h2 {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 30px;
-    color: aliceblue;
+    color: bisque
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+ul {
+    list-style: none;
 }
