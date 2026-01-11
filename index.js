@@ -1,7 +1,7 @@
 import express from "express"
-import homeRouter from "./src/routers/home.js"
 import path from "path"
 import { fileURLToPath } from "url"
+import homeRouter from "./src/routers/home.js"
 import errorRouter from "./src/routers/404.js"
 import todo from "./src/routers/todo.js"
 import news from "./src/routers/news.js"
